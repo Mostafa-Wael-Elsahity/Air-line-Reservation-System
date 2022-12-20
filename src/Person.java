@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Person {
+public abstract class Person {
     private String name, address, phoneNumber, nationalID;
 
     Person(Boolean wantToFill) {
