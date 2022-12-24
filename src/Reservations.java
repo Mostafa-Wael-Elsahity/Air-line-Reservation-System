@@ -19,7 +19,9 @@ public class Reservations {
             dateMade = LocalDateTime.now();
         }
     }
+    Reservations(){
 
+    }
     void showData(){
         passenger.showData();
         scheduledFlight.showData();

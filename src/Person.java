@@ -21,7 +21,11 @@ public abstract class Person {
             setNationalID(nationalID);
         }
     }
-    
+
+    public Person() {
+
+    }
+
     public void showData() {
         System.out.println("Name is " + getName());
         System.out.println("Address is " + getAddress());

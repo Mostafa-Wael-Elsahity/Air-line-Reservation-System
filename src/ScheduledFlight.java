@@ -22,6 +22,9 @@ public class ScheduledFlight {
         }
     }
 
+    ScheduledFlight(){
+
+    }
     void showData(){
         System.out.println("Flight Descriptions : ");
         flightDescriptions.showData();

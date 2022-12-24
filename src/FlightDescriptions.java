@@ -36,6 +36,9 @@ public class FlightDescriptions {
         }
     }
 
+    FlightDescriptions(){
+
+    }
     public void showData(){
         System.out.println("Flight to : "+getTo());
         System.out.println("Flight From : "+getFrom());

@@ -10,6 +10,10 @@ public class Passenger extends Person {
         }
     }
 
+    Passenger(){
+
+    }
+
     public void showData() {
         super.showData();
         System.out.println("His number is " + getNumber());
